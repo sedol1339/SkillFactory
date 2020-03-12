@@ -1,0 +1,14 @@
+conda create --name workspace
+conda activate workspace
+conda install opencv plotly tensorflow matplotlib
+conda install ipykernel
+conda install -c conda-forge imgaug
+conda install albumentations -c albumentations
+conda deactivate
+conda activate base
+conda install nb_conda_kernels
+
+Теперь будет доступно ядро "Python [conda env:workspace]"
+
+Ярлык jupyter:
+C:\Users\Oleg\Anaconda3\python.exe C:\Users\Oleg\Anaconda3\cwp.py C:\Users\Oleg\Anaconda3 C:\Users\Oleg\Anaconda3\python.exe C:\Users\Oleg\Anaconda3\Scripts\jupyter-notebook-script.py "%~dp0/"
