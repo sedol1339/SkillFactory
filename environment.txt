@@ -1,9 +1,11 @@
 conda create --name workspace
 conda activate workspace
-conda install opencv plotly tensorflow matplotlib
+conda install opencv plotly tensorflow matplotlib scikit-learn nbformat pandas
+conda install -c conda-forge ipywidgets
 conda install ipykernel
 conda install -c conda-forge imgaug
 conda install albumentations -c albumentations
+pip install tensorflow_datasets
 conda deactivate
 conda activate base
 conda install nb_conda_kernels
